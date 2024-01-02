@@ -1,9 +1,11 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Input from './Input'
 function App() {
   return (
     <>
-      <h2>navbar project setup</h2>
+     <Navbar/>
+     {/* <Input/> */}
     </>
   )
 }

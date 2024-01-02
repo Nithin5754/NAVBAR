@@ -1,10 +1,9 @@
 import React from 'react'
-import { FaBehance, FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa'
 export const links = [
   {
     id: 1,
     url: '/',
-    text: 'random',
+    text: 'home',
   },
   {
     id: 2,
@@ -32,21 +31,25 @@ export const social = [
   {
     id: 1,
     url: 'https://www.twitter.com',
-    icon: <FaFacebook />,
+    icon:'twit'
+  
   },
   {
     id: 2,
     url: 'https://www.twitter.com',
-    icon: <FaTwitter />,
+    icon:'fb'
+ 
   },
   {
     id: 3,
     url: 'https://www.twitter.com',
-    icon: <FaLinkedin />,
+    icon:'insta'
+   
   },
   {
     id: 4,
     url: 'https://www.twitter.com',
-    icon: <FaBehance />,
+    icon:'snap'
+    
   },
 ]
